@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Ray's Printables</title>
+</head>
+<body>
+  <h1>Checkout</h1>
+  <form id="checkout-form">
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" required>
+    <br>
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" required>
+    <br>
+    <label for="special-requests">Special Requests:</label>
+    <textarea id="special-requests"></textarea>
+    <br>
+    <button type="submit">Submit Order</button>
+  </form>
+
+  <p id="error-message" style="color: red; display: none;">Incomplete Form! Please fill out all required fields.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
