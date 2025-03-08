@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ray's Printables</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ray's Printables</h1>
+    <button id="view-cart" class="cart-btn">View Cart</button>
+    <button id="admin-login" class="admin-btn">Admin Login</button>
+  </header>
+
+  <main>
+    <div class="product">
+      <h2>Fidget Cone - $2</h2>
+      <p>Color: Orange</p>
+      <button class="add-to-cart" data-product="Fidget Cone" data-price="2">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h2>Ninja Star - $3</h2>
+      <p>Color: Orange</p>
+      <button class="add-to-cart" data-product="Ninja Star" data-price="3">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h2>Phone Cases - $4</h2>
+      <p>Color: Teal</p>
+      <button class="add-to-cart" data-product="Phone Cases" data-price="4">Add to Cart</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ray's Printables</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
